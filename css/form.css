@@ -1,0 +1,39 @@
+.img_contacto{
+    margin: 150px auto;
+
+}
+.img_contacto img{
+    margin: auto 15% ;
+    margin-bottom: 40px;
+}
+#img_contacto{
+    min-width: 100px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+input, textarea {
+    padding: 20px 10px;
+    border: 0.15em solid #f68228 ;
+    margin-bottom: 50px;
+    background-color: #303030;
+    color:white
+}
+input{
+    height: 40px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 0.15em solid #fff434 ;
+}
+
+#submeter{
+    height: fit-content;
+}
+#submeter:hover{
+    height: fit-content;
+    border: 0.15em solid #fff434 ;
+    background-color: #1d1e1e;
+}

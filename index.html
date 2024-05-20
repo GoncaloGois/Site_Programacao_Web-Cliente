@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+    </head>
+	
+	<body>    
+<!--Menu-->
+      <div style="background-color: #111111;">
+        <div class="container" >
+          <nav class="navbar navbar-expand-xl bg-body-tertiary " data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/logo.png" alt="Lógotipo" width="50" >
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justifycontent-center">
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="undertale.html">Undertale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="deltarune.html">Deltarune</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">Contactos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projeto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+<!--/Menu-->
+        
+
+
+
+
+        </header>
+		
+		<main class="container"> <!--Texto-->
+      <div id="content-wrap">
+        <p style="padding-left: 15%;padding-right: 15%;margin-top: 100px;">Este website é uma reimaginação dos websites de Toby Fox, criador de Undertale e Deltarune. </p>
+        <img class="logo" src="imagens/tobyfox.png" style="margin: 60px;">
+        
+        <p style="padding-left: 10%;padding-right: 10%;">Pretendo "juntar" os websites de uma forma criativa e interessante para ambas as pessoas que já jogaram os jogos como aquelas que nunca o fizeram.</p>
+
+
+
+        <img class="logo" src="imagens/undertale.png" style="margin-bottom: 100px;">
+        <div class="row">
+          <div class="col">
+            <a href="undertale.html"><button id="Btn" style="margin-bottom:10px;">Undertale</button></a>
+            <a href="https://undertale.com/"><button id="Btn">Site Oficial</button></a>
+          </div>
+        </div>
+
+
+        <img class="logo" src="imagens/deltarune.png" style="margin-bottom: 100px;">
+        <div class="row">
+          <div class="col">
+            <a href="deltarune.html"><button id="Btn" style="margin-bottom:10px;">Deltarune</button></a>
+            <a href="https://deltarune.com/"><button id="Btn">Site Oficial</button></a>
+          </div>
+        </div>
+      </div>
+    </main>		
+		
+    <button onclick="irParaTopo()" id="topBtn">Topo</button>
+
+		<footer class="footer">
+      <div class="container">
+        <div class="offset-dog">
+          <div id="dog">
+            <img src="imagens/dog.png">
+          </div>
+          <span style="font-weight: bold;">Redes sociais do desenvolvedor:</span>
+          <div class="redes-sociais">
+            <a href="https://twitter.com/undertale"><img alt="Twitter" src="imagens/social-twitter.png"></a>
+            <a href="https://undertale.tumblr.com/"><img alt="Tumblr" src="imagens/social-tumblr.png"></a>
+            <a href="https://www.youtube.com/c/UNDERTALEOfficial"><img alt="YouTube" src="imagens/social-youtube.png"></a>
+          </div>
+        </div>
+      </div>
+		</footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="javascript/BtnTopo.js"></script>
+	</body>	
+</html>
