@@ -154,14 +154,24 @@ main.container{
     text-align: center!important;
 }
 
-#act_img{
+#act_imgUt{
     float:right;
     width: 23vw;
 
 }
-#fight_img{
+#fight_imgUt{
     float:left;
     width: 23vw;
+}
+
+#act_imgDr{
+    float:right;
+    width: 12vw;
+
+}
+#fight_imgDr{
+    float:left;
+    width: 12vw;
 }
 
 #img_normal{
@@ -186,21 +196,25 @@ main.container{
 }
 
 #info {
+    text-align: left;
     margin-top: 50px;
 }
 
 
 
-/*Flowey*/
+/*Flowey&Nubert*/
 main.container .flowey{
     margin-top: 60%;
 }
+main.container .nubert{
+    margin-top: 40%;
+}
 
-.flowey img:hover{
+.flowey img:hover,.nubert:hover{
     cursor: pointer;
 }
 
-.flowey div{
+.flowey div,.nubert div{
     
     background-image: url('../imagens/fala.png');
     background-repeat: no-repeat;
@@ -210,7 +224,7 @@ main.container .flowey{
 }
 
 
-#flowey{
+#flowey,#nubert{
     width: 25%;
 }
 #balao{
@@ -229,7 +243,7 @@ main.container .flowey{
     font-size: 1.2vw;
     color: #111111;
 }
-/*Fim Flowey*/
+/*Fim Flowey&Nubert*/
 
 
 
@@ -238,20 +252,35 @@ main.container .flowey{
     margin: 300px 0;
 
 }
-
-p{
-    font-size: large;
-    font-weight: bold;
+#deltarune{
+    margin-bottom: 50px;
 }
 
 #tempo {
     text-align: center;
     margin: 100px 330px;
+    margin-top:0;
     font-weight: bold;
     display: inline-block;
 }
 
+p{
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.6;
 
+}
+#titulo{
+    font-size: larger;
+    font-weight: bold;
+
+}
+#texto{
+    text-align: left;
+    font-size: larger;
+    font-weight: normal;
+    line-height: 1.4;
+}
 
 /*Footer*/
 .footer {

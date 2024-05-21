@@ -45,17 +45,12 @@
         </div>
       </div>
 <!--/Menu-->
-        
 
-
-
-
-        </header>
 		
 		<main class="container" > <!--Texto-->
       
       <div id="content-wrap">
-        <img class="logo" src="imagens/undertale.png">
+        <img id="undertale" class="logo" src="imagens/undertale.png">
         <p>... é um jogo rpg onde não é preciso matar ninguém.</p><br>
         <p>Cada inimigo pode ser derrotado de forma não violenta.</p><br>
         <p>Ou, se preferires violência, também podes ir por esse caminho.</p>
@@ -72,7 +67,7 @@
             <div class="col-5">
               <a href="#act">
                 
-                  <img id="act_img" src="imagens/act.png" onmouseover="this.src='imagens/act_active.png';" onmouseout="this.src='imagens/act.png';"> 
+                  <img id="act_imgUt" src="imagens/undertale/act.png" onmouseover="this.src='imagens/undertale/act_active.png';" onmouseout="this.src='imagens/undertale/act.png';"> 
                 
               </a>
             </div>
@@ -81,7 +76,7 @@
             </div>
             <div class="col-5">
               <a href="#fight">
-                <img id="fight_img" src="imagens/fight.png" onmouseover="this.src='imagens/fight_active.png';" onmouseout="this.src='imagens/fight.png';"> 
+                <img id="fight_imgUt" src="imagens/undertale/fight.png" onmouseover="this.src='imagens/undertale/fight_active.png';" onmouseout="this.src='imagens/undertale/fight.png';"> 
               </a>
             </div>
           </div>
@@ -99,7 +94,7 @@
             </div>
           </div>
           
-          <p>Não mates</p>
+          <p id="texto">Ao agires (ACT) em vez de atacares, és capaz de criar amizades inesperadas e estranhas. Deste jeito obténs o que mais há para oferecer de Undertale.</p>
 
           <!--FIGHT-->
           <div id="fight" class="container" style="margin-top: 800px;margin-bottom: 40px;">
@@ -112,7 +107,7 @@
               </div>
             </div>
           </div>
-          <p>Mata</p>
+          <p id="texto">Ao atacares (FIGHT) e matares inimigos, não obténs o melhor final, apenas a destruição de todos aqueles que se opõem a ti, ou até mesmo daqueles que não se opõem...</p>
         
         <!--GALERIA DE IMAGENS------------------------>
         <div class="container text-center" style="margin-top: 300px;">
@@ -159,7 +154,7 @@
               </div>
             </div>
             <div class="col">
-              <p style="font-size: 100%;">Informação sobre personagem</p>
+              <p id = "titulo">Informação sobre personagem</p>
               <div id="info"></div>
             </div>
           </div>
@@ -176,7 +171,6 @@
         </div>
         <!--FLOWEY-->
       </div>
-    </div>
   </main>		
 		
   
@@ -187,7 +181,7 @@
       <div class="container">
         <div class="offset-dog">
           <div id="dog">
-            <img src="imagens/dog.png">
+            <img src="imagens/dog.png" onmouseenter="playAudio()">
           </div>
           <span style="font-weight: bold;">Redes sociais do desenvolvedor:</span>
           <div class="redes-sociais">
@@ -201,9 +195,13 @@
 		</footer>
 
 
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="javascript/InfoUndertale.js"></script>
         <script src="javascript/BtnTopo.js"></script>
         <script src="javascript/Flowey.js"></script>
+        <script src="javascript/Cao-Bark.js"></script>
+        
 	</body>	
 </html>

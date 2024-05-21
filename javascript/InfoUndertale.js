@@ -1,15 +1,15 @@
 
 //info de personagens
 var info = [
-  "teste0",
-  "Flowey é",
-  "test2",
-  "teste3",
-  "tes4.",
-  "test555",
-  "test6",
-  "test7",
-  "test8"
+  "Frisk é o personagem jogável, protagonista principal e o oitavo humano em Undertale. Depois de cair no 'Underground', aventura-se para tentar voltar à superficie.",
+  "Flowey é um dos primeiros personagens mais importantes que o protagonista encontra em Undertale. Flowey serve como antagonista para a rota neutra e pacifista e pode ser considerado deuteragonista na rota genocida.",
+  "Toriel é a segunda personagem principal que o protagonista conhece em Undertale. Ela salva o protagonista de Flowey guia-o pelas Ruínas.",
+  "Sans é o irmão mais velho de Papyrus. Ele aparece na Floresta de Snowdin após o protagonista sair das Ruínas.",
+  "Papyrus é o irmão mais novo de Sans. Ele quer se tornar um Guarda Real para ganhar fama e fazer amigos.",
+  "Undyne lidera os Guardas Reais, que protegem Asgore e patrulham o 'Underground' para encontrar humanos.",
+  "Mettaton é um robô com uma alma, cujo o corpo foi construído por Alphys. É a única estrela de televisão do 'Underground'.",
+  "Alphys é a Cientista Real, posição dada por Asgore após o antecessor dela ter desaparecido.",
+  "Asgore é o governante do 'Underground'. Ele serve de antagonista principal que pretende usar 7 almas de humanos para quebrar a barreira que prende os monstros para poderem voltar todos à superficie. No entanto, ele não é malvado nem malicioso."
   ];
 var btPrev = document.getElementById('btPrev')
 var btProx = document.getElementById('btProx')
